@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>UpdateString</Title>
+    <Authors>Zamelane</Authors>
+    <Description>Предназначен для вывода строки на том же месте, где она была выведена в первый раз.
+Удобно использовать, чтобы не плодить строки и обновлять уже существующую информацию.</Description>
+    <Copyright>Copyright (c) Zamelane 2023</Copyright>
+    <PackageTags>update;string;console;write</PackageTags>
+    <PackageReleaseNotes>Первая версия пакета</PackageReleaseNotes>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/Zamelane/UpdateString</PackageProjectUrl>
+    <PackageIcon>iconizer-3d Pointer.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Downloads\iconizer-3d Pointer.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
